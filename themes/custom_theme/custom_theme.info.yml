@@ -1,0 +1,15 @@
+name: Custom Theme
+type: theme
+description: "Custom Theme Creation for Practise."
+package: other
+core_version_requirement: '10.x'
+libraries:
+  - custom_theme/global-styling
+  
+base theme: olivero
+regions:
+  header: Header
+  menu: Menu
+  content: Content
+  footer: Footer
+  
